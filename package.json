@@ -4,7 +4,9 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
+    "build": "next build",
     "lint": "next lint",
+    "test": "next lint",
     "export": "next build && next export && touch ./out/.nojekyll"
   },
   "dependencies": {
